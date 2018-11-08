@@ -1,0 +1,99 @@
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+<link rel="stylesheet"  href="css/lightslider.css"/>
+<style type="text/css">
+
+.demo {
+    width:450px;
+}
+.demo .item {
+     margin-bottom: 60px;
+}
+#image-gallery {
+    list-style: none outside none;
+    padding-left: 0;​
+
+
+    margin-bottom:0;
+}
+
+	
+</style>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script>
+         $(document).ready(function() {
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:9,
+                slideMargin: 0,
+                speed:500,
+                auto:false,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+        });
+    </script>
+
+
+<body>
+    <div class="demo">
+        <div class="item">            
+            <div class="clearfix" style="max-width:400px;">
+                <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282"/>
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36""> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                    <li data-thumb="https://placekitten.com/50/36"> 
+                        <img src="https://placekitten.com/400/282" />
+                         </li>
+                </ul>
+            </div>
+        </div>
+
+</body>
